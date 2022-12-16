@@ -1,0 +1,221 @@
+@font-face {
+    font-family: "Monument Extended";
+    src        : url('../font/MonumentExtended-Regular.otf');
+}
+
+@font-face {
+    font-family: "Monument Extended Ultrabold";
+    src        : url('../font/MonumentExtended-Ultrabold.otf');
+}
+
+.imagem-fundo {
+    width           : 100vw;
+    height          : 100vh;
+    background-color: #1A0026;
+    opacity         : 0.9;
+}
+.topo {
+    margin: 55px;
+}
+
+.logo {
+    padding-top: 6px;
+    width          : 36px;
+    height         : 36px;
+    left           : 80px;
+    top            : 42px;
+    border-radius  : 50px;
+    justify-content: center;
+    text-align     : center;
+    background     : linear-gradient(73.37deg, #280C35 -15.3%, #F10380 173.41%);
+    font-family    : 'Monument Extended';
+    font-style     : normal;
+    font-weight    : 400;
+    font-size      : 18px;
+    line-height    : 22px;
+    letter-spacing : 0.02em;
+    color          : #FFFFFF;
+}
+
+.ellipse {
+    width        : 14px;
+    height       : 14px;
+    left         : 1353px;
+    top          : 42px;
+    background   : #CD026C;
+    border-radius: 50%;
+}
+
+.main {
+    background: #1A0026;
+    opacity   : 0.9;
+}
+
+.titulo {
+    color         : #FFFFFF;
+    font-family   : 'Monument Extended';
+    font-style    : normal;
+    font-weight   : 400;
+    font-size     : 72px;
+    line-height   : 88px;
+    letter-spacing: 0.04em;
+    position      : absolute;
+    width         : 801px;
+    height        : 88px;
+    left          : 80px;
+    top           : 274px;
+}
+
+.sub_titulo {
+    position      : absolute;
+    width         : 473px;
+    height        : 17px;
+    left          : 80px;
+    top           : 367px;
+    font-family   : 'Monument Extended';
+    font-style    : normal;
+    font-weight   : 400;
+    font-size     : 14px;
+    line-height   : 17px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color         : #A599AB;
+}
+
+.button {
+    border        : 3px solid;
+    margin-top    : 20px;
+    border-color  : rgb(207, 4, 108, 1)rgba(63, 5, 35, 0.1354) rgba(255, 255, 255, 0)rgba(255, 36, 151, 0.18);
+    border-radius : 23px 0px 23px 0px;
+    font-family   : 'Monument Extended';
+    font-style    : normal;
+    font-weight   : 400;
+    font-size     : 14px;
+    line-height   : 17px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color         : #FFFFFF;
+    box-sizing    : border-box;
+    position      : absolute;
+    width         : 182px;
+    height        : 54px;
+    left          : 75px;
+    top           : 418px;
+    background    : linear-gradient(180deg, rgba(255, 36, 151, 0.18) 0%, rgba(97, 0, 51, 0.18) 100%);
+}
+
+.foto1 {
+    position: absolute;
+    width   : 439.6px;
+    height  : 667.39px;
+    left    : 1038px;
+    top     : 212px;
+}
+
+.foto2 {
+    position: absolute;
+    width   : 482px;
+    height  : 732px;
+    left    : 887px;
+    top     : 147px;
+}
+
+.foto3 {
+    position: absolute;
+    width   : 439.6px;
+    height  : 667.39px;
+    left    : 780px;
+    top     : 212px;
+}
+
+.modal-body {
+    /* width: 100vw;
+    height: 100vh; */
+    display       : flex;
+    margin-top    : 200px;
+    flex-direction: column;
+
+    width           : 100vw;
+    height          : 100vh;
+    background-color: #1a00261c;
+    opacity         : 0.9;
+    font-family     : 'Monument Extended';
+    font-style      : normal;
+    font-weight     : 400;
+    font-size       : 24px;
+    line-height     : 29px;
+    letter-spacing  : 0.02em;
+    color           : #FFFFFF;
+}
+
+.modal-content {
+    color: #FFFFFF;
+}
+
+#JanelaModal .modal-content {
+    width             : 50vw;
+    -webkit-box-shadow: none;
+    box-shadow        : none;
+    background        : transparent;
+    border            : none;
+}
+.card-1 {
+  
+    font-family     : 'Monument Extended';
+    font-style      : normal;
+    position    : absolute;
+    text-align: right;
+    align-items: center;
+    left        : 752px;
+    top         : 424px;
+    color       : #FFFFFF;
+    border      : 3px solid;
+    border-color: rgb(207, 4, 108, 1)rgba(63, 5, 35, 0.1354) rgba(255, 255, 255, 0)rgba(255, 36, 151, 0.18); 
+    background     : linear-gradient(180deg, rgba(78, 17, 49, 0.3) 0%, rgba(17, 2, 10, 0.3) 100%);
+    backdrop-filter: blur(7.5px);
+    border-bottom:12px solid rgb(207, 4, 108, 1);
+    border-left: 12px solid transparent; 
+    border-right: 12px solid transparent;
+}
+.card-2 {
+    font-family     : 'Monument Extended';
+    font-style      : normal;
+    position: absolute;
+    text-align: right;
+    width   : 166px;
+    height  : 215px;
+    left    : 1262px;
+    top     : 626px;
+    color: #FFFFFF;
+    border      : 3px solid;
+    border-color: rgb(207, 4, 108, 1)rgba(63, 5, 35, 0.1354) rgba(255, 255, 255, 0)rgba(255, 36, 151, 0.18); 
+    background     : linear-gradient(180deg, rgba(78, 17, 49, 0.3) 0%, rgba(17, 2, 10, 0.3) 100%);
+    backdrop-filter: blur(7.5px);
+    border-bottom:12px solid rgb(207, 4, 108, 1);
+    border-left: 12px solid transparent; 
+    border-right: 12px solid transparent; 
+    z-index: 2;
+}
+.web {
+    position: absolute;
+    left: 450px;
+    top: 680px;
+}
+.modern {
+    position: absolute;
+    left: 300px;
+    top: 780px;
+    letter-spacing: 0.05em;
+
+}
+.icons {
+    
+    position: absolute;
+    top: 800px;
+    left: 100px;
+    
+}
+.icon {
+    padding-left: 15px;
+}
+
